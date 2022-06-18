@@ -14,6 +14,18 @@ setup_awesomewm()
   fi
 }
 
+setup_rofi()
+{
+  if [ ! -d "$HOME/.config/rofi" ]
+  then
+    cp "$TIER_III_DIR/rofi" "$HOME/.config/" -r
+
+    echo "\"$HOME/.config/rofi\" done."
+  else
+    echo "\"$HOME/.config/rofi\" already exists. Skipping..."
+  fi
+}
+
 setup_wallpapers()
 {
   if [ ! -d "$HOME/.local/share/wallpapers" ]
