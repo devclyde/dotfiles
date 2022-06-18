@@ -1,0 +1,19 @@
+#!/bin/bash
+
+source "./scripts/setup-tier-i.sh"
+source "./scripts/setup-tier-ii.sh"
+source "./scripts/setup-tier-iii.sh"
+
+# Tier I
+
+setup_alacritty
+setup_fish
+
+# Tier II
+
+setup_nvchad
+
+# Tier III
+
+setup_awesomewm
+setup_wallpapers

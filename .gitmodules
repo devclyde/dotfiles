@@ -1,0 +1,9 @@
+[submodule "tier-iii/awesome/vicious"]
+	path = tier-iii/awesome/vicious
+	url = https://github.com/vicious-widgets/vicious
+[submodule "tier-ii/nvim"]
+	path = tier-ii/nvim
+	url = https://github.com/devclyde/NvChad
+[submodule "tier-iii/wallpapers"]
+	path = tier-iii/wallpapers
+	url = https://github.com/devclyde/dotfiles-wallpapers

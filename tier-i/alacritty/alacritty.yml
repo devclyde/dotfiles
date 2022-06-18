@@ -1,0 +1,10 @@
+import:
+  - ~/.config/alacritty/fonts.yml
+  - ~/.config/alacritty/theme.yml
+  - ~/.config/alacritty/cursor.yml
+  - ~/.config/alacritty/window.yml
+
+shell:
+  program: /usr/bin/fish
+  args:
+    - --login
